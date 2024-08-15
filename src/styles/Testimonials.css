@@ -1,0 +1,58 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.testimonial-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.contact-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-text h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form input{
+    border: 1px solid #AFAFAF;
+    border-radius: 14px;
+    height: 50px;
+    width: 500px;
+    background: #F8F8F8;
+    padding: 10px;
+}
+
+.form input ::placeholder{
+    font-size: 18px;
+    color: #797979;
+}

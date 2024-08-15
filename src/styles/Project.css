@@ -1,0 +1,41 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.project-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-text h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.project-images img{
+    height: 400px;
+    width: 250px;
+}
+
+.project-images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.project-btn{
+    background: #F8F8F8;
+    color: black;
+}
+
+.active{
+    background: #FD6F00;
+    color: white;
+}

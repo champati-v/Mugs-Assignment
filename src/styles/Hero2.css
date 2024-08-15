@@ -1,0 +1,30 @@
+.hero2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 50px 250px 0px 250px;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hero2 .rect1{
+    position: absolute;
+    margin-bottom: 250px;
+}
+
+.hero2-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero2-text .about{
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.hero2-text .skill{
+    font-size:24px;
+    font-weight:600;
+}
