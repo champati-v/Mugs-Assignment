@@ -39,3 +39,63 @@
     background: #FD6F00;
     color: white;
 }
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+    .project-text h1 {
+        font-size: 40px;
+    }
+
+    .project-text p {
+        font-size: 18px;
+    }
+
+    .project-images {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-images img {
+        height: 300px;
+        width: 200px;
+    }
+
+    .project-btn {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+    .project-text h1 {
+        font-size: 40px;
+        margin-top: 400px;
+    }
+
+    .project-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-text p {
+        font-size: 16px;
+    }
+
+    .project-images {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .project-images img {
+        height: 250px;
+        width: 150px;
+    }
+
+    .project-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}

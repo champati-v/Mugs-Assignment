@@ -56,3 +56,82 @@ h1.design{
     font-weight: 700;
     margin:-45px 0px 0px 230px;
 }
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+    .hero1 {
+        margin: 50px 50px 0px 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text p.hi {
+        font-size: 20px;
+    }
+
+    p.name {
+        font-size: 28px;
+    }
+
+    h1.ui,
+    h1.design {
+        font-size: 60px;
+        margin: 0;
+    }
+
+    .hero-img img {
+        width: 300px;
+    }
+
+    .hero-img .rect {
+        margin-top: 30px;
+        width: 200px; /* Adjusted for smaller screens */
+    }
+
+    .icons ul {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+    .hero1 {
+        margin: 20px 20px 0px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-text p.hi {
+        font-size: 18px;
+    }
+
+    p.name {
+        font-size: 24px;
+    }
+
+    h1.ui,
+    h1.design {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .hero-img img {
+        width: 250px;
+    }
+
+    .hero-img .rect {
+        margin-left: 45px;
+        width: 150px;
+        position: absolute;
+    }
+
+    .icons img {
+        width: 25px;
+    }
+
+    .icons ul {
+        margin-top: 15px;
+        gap: 10px;
+    }
+}

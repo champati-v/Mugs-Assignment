@@ -28,3 +28,80 @@
     font-size:24px;
     font-weight:600;
 }
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+    .hero2 {
+        margin: 50px 50px 0px 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero2-img img {
+        width: 300px;
+    }
+
+    .hero2 .rect1 {
+        margin-bottom: 200px;
+        width: 200px; /* Adjusted for smaller screens */
+    }
+
+    .hero2-text .about {
+        font-size: 50px;
+    }
+
+    .hero2-text .skill {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .hero2-text img {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+    .hero2 {
+        margin: 20px 20px 0px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Move "About Me" above and bring the image down */
+    .hero2-text {
+        order: 1;
+        text-align: center;
+    }
+
+    .hero2-img {
+        order: 2;
+    }
+
+    .hero2-img img {
+        width: 250px;
+    }
+
+    .hero2 .rect1 {
+        margin-bottom: 150px;
+        width: 150px;
+    }
+
+    .hero2-text .about {
+        font-size: 40px;
+        margin-bottom: 20px; /* Add some space between the text and the image */
+    }
+
+    .hero2-text .skill {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .hero2-text img {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 15px;
+    }
+}

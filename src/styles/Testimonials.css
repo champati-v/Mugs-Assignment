@@ -56,3 +56,63 @@
     font-size: 18px;
     color: #797979;
 }
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+    .testimonial-text h1 {
+        font-size: 40px;
+    }
+
+    .contact-text h1 {
+        font-size: 40px;
+    }
+
+    .form {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .form input {
+        width: 100%;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .form button {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+    .testimonials{
+        margin-top: 600px;
+    }
+    
+    .testimonial-text h1 {
+        font-size: 30px;
+    }
+
+    .contact-text h1 {
+        font-size: 30px;
+    }
+
+    .form input {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .form button {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .contact-sec {
+        gap: 30px;
+    }
+}
